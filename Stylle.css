@@ -1,0 +1,54 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 12px;
+	font-weight: 700;
+	line-height: 30px;
+	letter-spacing: 0.15em;
+	font-family: 'Inter';
+}
+
+.container {
+	width: 1110px;
+	margin: 0 auto;
+}
+
+.section {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 156px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+.info {
+	font-weight: 100;
+	letter-spacing: 0.15em;
+	margin-bottom: 35px;
+}
+
+.btn {
+	color: white;
+	background-color: #8306FF;
+	font-size: 15px;
+	padding: 18px 30px;
+	height: 35px;
+}
+
+.btn:hover {
+  background-color: blue;
+  color: black;
+}
+
+.text {
+	margin-bottom: 50px;
+}
+
